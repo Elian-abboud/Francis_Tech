@@ -462,7 +462,7 @@ the website, in dark theme
 }
 
 .steps__card {
-  background-color: var(--container-color);
+  background-color: rgb(255, 255, 255);
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
 }
@@ -481,10 +481,13 @@ the website, in dark theme
 .steps__card-title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  color: rgb(6, 148, 167);
 }
 
 .steps__card-description {
   font-size: var(--small-font-size);
+    color: black;
+
 }
 
 .steps__card:hover .steps__card-number {
@@ -571,13 +574,14 @@ the website, in dark theme
 }
 
 .questions__item {
-  background-color: var(--container-color);
+  background-color: #0388cf;
   border-radius: 0.25rem;
 }
 
 .questions__item-title {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
+  color: rgb(255, 255, 255);
 }
 
 .questions__icon {
@@ -588,6 +592,7 @@ the website, in dark theme
 .questions__description {
   font-size: var(--smaller-font-size);
   padding: 0 1.25rem 1.25rem 2.5rem;
+  
 }
 
 .questions__header {
@@ -630,6 +635,7 @@ the website, in dark theme
 
 .accordion-open .questions__icon {
   transform: rotate(45deg);
+  
 }
 
 /*=============== CONTACT ===============*/
@@ -1200,3 +1206,25 @@ the website, in dark theme
     transform: scale(1);
   }
 }
+
+
+.footer__address {
+  text-align: center; 
+  color: #fff; 
+  font-size: 16px; 
+  line-height: 1.0; 
+  margin: 0; 
+}
+
+.footer__address-item {
+  display: block; 
+  margin-bottom: 8px; 
+}
+
+.footer__flag {
+  width: 20px; 
+  height: auto; 
+  vertical-align: middle; 
+  margin-right: 5px; 
+}
+
